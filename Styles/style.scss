@@ -258,10 +258,9 @@ body {
           
           .podcast {
                width: 300px;
-               height: 500px;
+               height: 550px;
                border: 1px solid $color-light-grey;
-               margin: 20px;
-               // width: calc(100% / 3 - 10px);
+               margin: 20px 0;
 
                .podcast-image-container {
                     width: 100%;
@@ -269,7 +268,20 @@ body {
 
                     img {
                          width: 100%;
-                         height: 100%;
+                         height: 200px;
+                    }
+
+                    .media-controls {
+                         display: flex;
+                         align-items: center;
+                         justify-content: space-between;
+                         height: 50px;
+                         background-color: $color-whitish;
+
+                         img {
+                              width: 40px;
+                              height: 40px;
+                         }
                     }
                }
 
@@ -330,7 +342,7 @@ body {
 }
 
 .contact-section {
-     padding: 15px;
+     padding: 40px;
 
      .contact-text {
           color: $color-blackish;

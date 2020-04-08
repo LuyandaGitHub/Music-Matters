@@ -275,9 +275,9 @@ body .section-heading {
 
 .podcast-section .podcasts-container .podcast {
   width: 300px;
-  height: 500px;
+  height: 550px;
   border: 1px solid #cccccc;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .podcast-section .podcasts-container .podcast .podcast-image-container {
@@ -287,7 +287,26 @@ body .section-heading {
 
 .podcast-section .podcasts-container .podcast .podcast-image-container img {
   width: 100%;
-  height: 100%;
+  height: 200px;
+}
+
+.podcast-section .podcasts-container .podcast .podcast-image-container .media-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+  background-color: #efefef;
+}
+
+.podcast-section .podcasts-container .podcast .podcast-image-container .media-controls img {
+  width: 40px;
+  height: 40px;
 }
 
 .podcast-section .podcasts-container .podcast .podcast-details .podcast-heading {
@@ -355,7 +374,7 @@ body .section-heading {
 }
 
 .contact-section {
-  padding: 15px;
+  padding: 40px;
 }
 
 .contact-section .contact-text {
